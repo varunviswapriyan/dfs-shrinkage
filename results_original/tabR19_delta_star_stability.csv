@@ -1,0 +1,9 @@
+universe,sample,delta_star,var_at_star,var_at_0
+stocks,first_half,0.2,176.956,209.5607
+stocks,second_half,0.35,200.7432,251.1307
+stocks,full,0.26,189.5727,230.3457
+stocks,first->second_transfer,0.2,203.2421,200.7432
+etfs,first_half,0.0,22.9922,22.9922
+etfs,second_half,0.0,16.6998,16.6998
+etfs,full,0.0,19.846,19.846
+etfs,first->second_transfer,0.0,16.6998,16.6998

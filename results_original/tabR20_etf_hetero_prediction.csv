@@ -1,0 +1,7 @@
+sigma,N,T,delta_D,delta_F,frac_dD_gt_dF,gap_pct
+ETF_empirical,10,120,0.0011,0.044,0.0475,35.7824
+ETF_empirical,10,250,0.0002,0.0336,0.015,30.2594
+ETF_empirical,10,500,0.0,0.0264,0.0025,24.9596
+ETF_equalised_vols,10,120,0.1801,0.0512,0.9025,2.4744
+ETF_equalised_vols,10,250,0.1124,0.0362,0.8725,0.8997
+ETF_equalised_vols,10,500,0.0684,0.024,0.81,0.3732

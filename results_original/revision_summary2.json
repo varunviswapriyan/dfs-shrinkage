@@ -1,0 +1,183 @@
+{
+  "oracle": {
+    "stocks": {
+      "delta_star": 0.26,
+      "oracle_var": 189.0504961605491,
+      "lw_var": 204.9880773140298,
+      "dfs_pct_of_gap": 85.47459122704113
+    },
+    "etfs": {
+      "delta_star": 0.0,
+      "oracle_var": 19.80562921716792,
+      "lw_var": 27.81008255319522,
+      "dfs_pct_of_gap": 93.56310740966245
+    }
+  },
+  "placebo2": {
+    "var_mean": {
+      "('identity', 'iid')": 188.2,
+      "('identity', 'phase')": 313.9167,
+      "('identity', 'real')": 191.3655,
+      "('identity', 'shuffle')": 189.4416,
+      "('nn', 'iid')": 230.1139,
+      "('nn', 'phase')": 293.871,
+      "('nn', 'real')": 243.244,
+      "('nn', 'shuffle')": 254.8306
+    },
+    "var_sd": {
+      "('identity', 'iid')": 1.1506,
+      "('identity', 'phase')": 2.8039,
+      "('identity', 'real')": NaN,
+      "('identity', 'shuffle')": 0.0,
+      "('nn', 'iid')": 26.0478,
+      "('nn', 'phase')": 9.0136,
+      "('nn', 'real')": NaN,
+      "('nn', 'shuffle')": 15.4469
+    },
+    "delta_mean": {
+      "('identity', 'iid')": 0.2932,
+      "('identity', 'phase')": 0.9576,
+      "('identity', 'real')": 0.197,
+      "('identity', 'shuffle')": 0.2449,
+      "('nn', 'iid')": 0.4104,
+      "('nn', 'phase')": 0.9231,
+      "('nn', 'real')": 0.3418,
+      "('nn', 'shuffle')": 0.4347
+    },
+    "delta_disp": {
+      "('identity', 'iid')": 0.0807,
+      "('identity', 'phase')": 0.0044,
+      "('identity', 'real')": 0.0359,
+      "('identity', 'shuffle')": 0.0939,
+      "('nn', 'iid')": 0.3252,
+      "('nn', 'phase')": 0.1005,
+      "('nn', 'real')": 0.3,
+      "('nn', 'shuffle')": 0.3275
+    },
+    "to_mean": {
+      "('identity', 'iid')": 5.0665,
+      "('identity', 'phase')": 0.3399,
+      "('identity', 'real')": 6.3469,
+      "('identity', 'shuffle')": 5.7315,
+      "('nn', 'iid')": 9.4282,
+      "('nn', 'phase')": 0.9879,
+      "('nn', 'real')": 8.355,
+      "('nn', 'shuffle')": 8.901
+    }
+  },
+  "foc": {},
+  "stability": [
+    {
+      "universe": "stocks",
+      "sample": "first_half",
+      "delta_star": 0.2,
+      "var_at_star": 176.956,
+      "var_at_0": 209.5607
+    },
+    {
+      "universe": "stocks",
+      "sample": "second_half",
+      "delta_star": 0.35,
+      "var_at_star": 200.7432,
+      "var_at_0": 251.1307
+    },
+    {
+      "universe": "stocks",
+      "sample": "full",
+      "delta_star": 0.26,
+      "var_at_star": 189.5727,
+      "var_at_0": 230.3457
+    },
+    {
+      "universe": "stocks",
+      "sample": "first->second_transfer",
+      "delta_star": 0.2,
+      "var_at_star": 203.2421,
+      "var_at_0": 200.7432
+    },
+    {
+      "universe": "etfs",
+      "sample": "first_half",
+      "delta_star": 0.0,
+      "var_at_star": 22.9922,
+      "var_at_0": 22.9922
+    },
+    {
+      "universe": "etfs",
+      "sample": "second_half",
+      "delta_star": 0.0,
+      "var_at_star": 16.6998,
+      "var_at_0": 16.6998
+    },
+    {
+      "universe": "etfs",
+      "sample": "full",
+      "delta_star": 0.0,
+      "var_at_star": 19.846,
+      "var_at_0": 19.846
+    },
+    {
+      "universe": "etfs",
+      "sample": "first->second_transfer",
+      "delta_star": 0.0,
+      "var_at_star": 16.6998,
+      "var_at_0": 16.6998
+    }
+  ],
+  "etftie": [
+    {
+      "sigma": "ETF_empirical",
+      "N": 10,
+      "T": 120,
+      "delta_D": 0.0011,
+      "delta_F": 0.044,
+      "frac_dD_gt_dF": 0.0475,
+      "gap_pct": 35.7824
+    },
+    {
+      "sigma": "ETF_empirical",
+      "N": 10,
+      "T": 250,
+      "delta_D": 0.0002,
+      "delta_F": 0.0336,
+      "frac_dD_gt_dF": 0.015,
+      "gap_pct": 30.2594
+    },
+    {
+      "sigma": "ETF_empirical",
+      "N": 10,
+      "T": 500,
+      "delta_D": 0.0,
+      "delta_F": 0.0264,
+      "frac_dD_gt_dF": 0.0025,
+      "gap_pct": 24.9596
+    },
+    {
+      "sigma": "ETF_equalised_vols",
+      "N": 10,
+      "T": 120,
+      "delta_D": 0.1801,
+      "delta_F": 0.0512,
+      "frac_dD_gt_dF": 0.9025,
+      "gap_pct": 2.4744
+    },
+    {
+      "sigma": "ETF_equalised_vols",
+      "N": 10,
+      "T": 250,
+      "delta_D": 0.1124,
+      "delta_F": 0.0362,
+      "frac_dD_gt_dF": 0.8725,
+      "gap_pct": 0.8997
+    },
+    {
+      "sigma": "ETF_equalised_vols",
+      "N": 10,
+      "T": 500,
+      "delta_D": 0.0684,
+      "delta_F": 0.024,
+      "frac_dD_gt_dF": 0.81,
+      "gap_pct": 0.3732
+    }
+  ]
+}

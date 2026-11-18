@@ -1,0 +1,11 @@
+method,net_sharpe_adv_at_0,net_sharpe_adv_at_25bp,breakeven_cost_bp
+dfs_identity,-0.0025,-0.0044,
+dfs_cc,-0.003,-0.0049,
+dfs_mix,-0.0026,-0.0048,
+dfs_nn,-0.0209,-0.0225,
+dfs_tc_10bp,-0.0025,-0.0043,
+dfs_tc_25bp,-0.0035,-0.0049,
+dfs_tc_50bp,0.0031,0.0048,
+nls,-0.0016,-0.0037,
+lw_cc,-0.0022,-0.003,
+equal,-0.0094,-0.0041,42.5

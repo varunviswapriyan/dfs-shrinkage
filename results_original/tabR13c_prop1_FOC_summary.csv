@@ -1,0 +1,6 @@
+,dV_at_deltaD,dV_at_deltaD,dV_at_deltaF,dV_at_deltaF,dFro_at_deltaD,dFro_at_deltaD,dFro_at_deltaF,dFro_at_deltaF
+,mean,std,mean,std,mean,std,mean,std
+dgp,,,,,,,,
+equicorr,-0.0,0.0,-5.245363,2.950396,2.038736,0.196131,0.053664,0.100447
+factor,0.000519,0.009257,-0.633448,1.14684,0.128398,0.16806,0.048326,0.085949
+hetero,0.000775,0.009544,0.07917,0.174111,-0.194563,0.210526,0.007966,0.029196
