@@ -1,0 +1,5 @@
+universe,comparison,var_ratio,t,p_boot
+stocks,DFS-G (decision walk-forward) vs FCV-G (Frobenius walk-forward),0.9658572581209047,-2.3367870044651413,0.06993006993006994
+stocks,FCV-G (Frobenius walk-forward) vs LW-I,0.9609888418863244,-2.6269189402548947,0.04595404595404595
+etfs,DFS-G (decision walk-forward) vs FCV-G (Frobenius walk-forward),0.42088602826634486,-8.299609690280478,0.000999000999000999
+etfs,FCV-G (Frobenius walk-forward) vs LW-I,1.6920837593745748,10.330160966542756,0.000999000999000999

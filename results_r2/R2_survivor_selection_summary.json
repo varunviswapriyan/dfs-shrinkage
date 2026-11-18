@@ -1,0 +1,14 @@
+{
+  "candidates_old": 90,
+  "candidates_new": 91,
+  "dropped_by_full_sample_filter": [
+    "MMC"
+  ],
+  "rebalances": 228,
+  "eval_rebalances": 204,
+  "rebalances_with_different_constituents": 0,
+  "eval_rebalances_with_different_constituents": 0,
+  "mean_names_swapped_per_rebalance": 0.0,
+  "max_names_swapped": 0,
+  "holdings_with_missing_prices_in_holding_period": 0
+}
